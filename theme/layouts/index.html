@@ -1,0 +1,15 @@
+{{> head}}
+<h1 class="site-header">{{header}}</h1>
+
+<article>
+    {{{contents}}}
+
+    <ul>
+        {{#each articles}}
+        <li>
+            <a href="/{{path}}">{{title}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</article>
+{{> foot}}
