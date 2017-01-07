@@ -10,7 +10,7 @@ var
     permalinks  = require('metalsmith-permalinks'),
     markdown    = require('metalsmith-markdown');
 
-const destination = "_site";
+const destination = "build";
 
 gulp.task('clean', function() {
     return gulp.src(destination, {read: false})
@@ -29,7 +29,7 @@ gulp.task('assets', function() {
 });
 
 // build HTML files using Metalsmith
-gulp.task('html', function() {
+gulp.task('metalsmith', function() {
     metalsmith(".")
         .clean(false)
         .source("content")
@@ -58,7 +58,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('build', ['clean'], function() {
-    runSequence('clean', ['scss', 'html', 'assets']);
+    runSequence('clean', ['scss', 'metalsmith', 'assets']);
 });
 
 gulp.task('default', ['build']);
