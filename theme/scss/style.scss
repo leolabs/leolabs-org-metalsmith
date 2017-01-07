@@ -16,7 +16,7 @@ body {
   margin: 0;
 }
 
-article {
+article, .content {
   max-width: 700px;
   padding: 16px;
   margin: auto;
@@ -226,4 +226,10 @@ a:target, ol#footnotes li:target, sup a:target {
 a:target {
   border: 0;
   outline: 0;
+}
+
+footer {
+  padding: 30px 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
 }
