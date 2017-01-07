@@ -1,14 +1,15 @@
 var
-    gulp        = require('gulp'),
-    serve       = require('gulp-serve'),
-    sass        = require('gulp-sass'),
-    clean       = require('gulp-clean'),
-    runSequence = require('run-sequence'),
-    metalsmith  = require('metalsmith'),
-    collections = require('metalsmith-collections'),
-    layouts     = require('metalsmith-layouts'),
-    permalinks  = require('metalsmith-permalinks'),
-    markdown    = require('metalsmith-markdown');
+    gulp         = require('gulp'),
+    serve        = require('gulp-serve'),
+    sass         = require('gulp-sass'),
+    clean        = require('gulp-clean'),
+    runSequence  = require('run-sequence'),
+    metalsmith   = require('metalsmith'),
+    collections  = require('metalsmith-collections'),
+    layouts      = require('metalsmith-layouts'),
+    permalinks   = require('metalsmith-permalinks'),
+    markdown     = require('metalsmith-markdown'),
+    htmlMinifier = require('metalsmith-html-minifier');
 
 const destination = "build";
 
@@ -19,7 +20,9 @@ gulp.task('clean', function() {
 
 gulp.task('scss', function() {
     return gulp.src('./theme/scss/*.scss')
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({
+            outputStyle: "compressed"
+        }).on('error', sass.logError))
         .pipe(gulp.dest(destination + '/css'));
 });
 
@@ -52,6 +55,7 @@ gulp.task('metalsmith', function() {
             directory: "theme/layouts",
             partials: "theme/partials"
         }))
+        .use(htmlMinifier())
         .build(function(err) {
             if (err) throw err;
         });
