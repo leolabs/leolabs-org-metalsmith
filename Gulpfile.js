@@ -63,4 +63,4 @@ gulp.task('build', ['clean'], function() {
 
 gulp.task('default', ['build']);
 
-gulp.task('serve', ['default'], serve('_site'));
+gulp.task('serve', ['default'], serve(destination));
