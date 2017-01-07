@@ -1,0 +1,252 @@
+---
+title: Testing the 13" Haswell MacBook Air
+date: 2013-06-22 21:41:02 Z
+---
+
+## Introduction
+
+A few months ago, I built my first Hackintosh and I really liked Mac OS X, so at this year's WWDC I decided to buy the new MacBook Air 13" to replace my old Dell XPS 15 notebook which I was very happy with. In this article, I want to tell you everything from the order to shipment, first impressions and impressions after some time.
+
+## Ordering the MacBook Air
+
+As I wanted to use my new MacBook Air a lot and as long as possible, I upgraded everything to it's maximum. That means, it includes the new Intel Core i7, 8 GB of memory and a 512 GB SSD, so the whole build cost me 1849,00 €. I ordered directly after the WWDC and the next morning, I got an E-Mail telling me that the order is being processed and giving me a link where I could see the order status. Eight days later, this status changed to "Preparing for Shipment" and another day later, the packet shipped. Using the UPS tracker, I could see that my packet would arrive just two days later. Now that my MacBook Air has arrived, here's the status overview that UPS gave me:
+
+<table border="0" cellspacing="0" cellpadding="0">
+
+<tbody>
+
+<tr>
+
+<th>Location</th>
+
+<th>Date</th>
+
+<th>Local Time</th>
+
+<th>Activity</th>
+
+</tr>
+
+<tr>
+
+<td>Duesseldorf, Germany</td>
+
+<td>06/21/2013</td>
+
+<td>9:04 A.M.</td>
+
+<td>Delivered</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/21/2013</td>
+
+<td>7:19 A.M.</td>
+
+<td>Out For Delivery</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/21/2013</td>
+
+<td>5:10 A.M.</td>
+
+<td>Arrival Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Koeln, Germany</td>
+
+<td>06/21/2013</td>
+
+<td>4:16 A.M.</td>
+
+<td>Departure Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/21/2013</td>
+
+<td>1:28 A.M.</td>
+
+<td>Import Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Koeln, Germany</td>
+
+<td>06/20/2013</td>
+
+<td>11:27 P.M.</td>
+
+<td>Arrival Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Warsaw, Poland</td>
+
+<td>06/20/2013</td>
+
+<td>9:20 P.M.</td>
+
+<td>Departure Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/20/2013</td>
+
+<td>6:46 P.M.</td>
+
+<td>Arrival Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Almaty, Kazakhstan</td>
+
+<td>06/20/2013</td>
+
+<td>5:19 P.M.</td>
+
+<td>Departure Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/20/2013</td>
+
+<td>2:51 P.M.</td>
+
+<td>Arrival Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Incheon, Korea, Republic of</td>
+
+<td>06/20/2013</td>
+
+<td>11:50 A.M.</td>
+
+<td>Departure Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/20/2013</td>
+
+<td>7:47 A.M.</td>
+
+<td>Arrival Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Shanghai, China</td>
+
+<td>06/20/2013</td>
+
+<td>4:59 A.M.</td>
+
+<td>Departure Scan</td>
+
+</tr>
+
+<tr>
+
+<td>Shanghai, China</td>
+
+<td>06/19/2013</td>
+
+<td>9:37 P.M.</td>
+
+<td>Export Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/19/2013</td>
+
+<td>6:40 P.M.</td>
+
+<td>Arrival Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/19/2013</td>
+
+<td>5:40 P.M.</td>
+
+<td>Departure Scan</td>
+
+</tr>
+
+<tr>
+
+<td></td>
+
+<td>06/19/2013</td>
+
+<td>12:41 P.M.</td>
+
+<td>Origin Scan</td>
+
+</tr>
+
+<tr>
+
+<td>China</td>
+
+<td>06/19/2013</td>
+
+<td>11:58 P.M.</td>
+
+<td>Order Processed: Ready for UPS</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## First impressions
+
+[![_MG_0664](/uploads/2013/06/MG_0664.jpg)](/uploads/2013/06/MG_0664.jpg) After opening the package, you'll see just the MacBook Air packed into a plastic film which can be easily removed. Unter the MacBook Air, you'll have all the accessories. I ordered an additional Mini DisplayPort to VGA adapter for use in school which is also placed under the MacBook. [![_MG_0665](/uploads/2013/06/MG_0665.jpg)](/uploads/2013/06/MG_0665.jpg) Going from left to right, you'll get two Apple stickers, some manuals and warranty documents, the additional adapter, if you ordered one, a power plug and a power cable, and finally the charger. You can choose whether you want to use the longer cable or the smaller plug. I went with the small plug as I don't want to carry this long cable with me. Compared to the old MacBooks, the new charger is smaller and the MagSafe 2 connector is a bit slimmer. [gallery columns="2" link="file" ids="1234,1231"] Coming to the MacBook Air itself, on the top you'll only see the Apple logo which will lighten up when the screen is on. On the left, there's the MagSafe port, a USB 3.0 port, a headphone jack which also supports iPhone compatible headphones with controls and a microphone, like the [Bose MIE2i](http://leolabs.org/blog/idevices/bose-mie2i-review/ "Bose MIE2i Headphones Review"), and two microphones which will reduce background noise if you want to. On the right, you'll see a Thunderbolt port which is backwards compatible to Mini DisplayPort, another USB 3.0 port and an SD card slot. Inside the MacBook Air, there's a 720p FaceTime webcam, the 13" 1440x900 pixels screen, a full-size keyboard and a glass trackpad and that's it. [gallery columns="5" link="file" ids="1239,1238,1237,1235,1236" link="file"] The first boot took about 10 seconds and after that I was guided through the setup of Mac OS X. These steps included connecting to the internet, creating an account, linking it to iCloud, setting up the time zone, reading the terms of use, enabling the location services and optionally transferring data from an old mac, a Windows machine or a Time Machine backup. That sounds like a lot of steps but the whole setup only took about two minutes to complete. http://www.youtube.com/watch?v=kr9sUDJJGv0 After the setup I installed my important applications, like Google Chrome, Skype, Dropbox, The Unarchiver, Pocket, iStat Menu, Lightroom, iWork and Microsoft Office. Thanks to the fast SSD, it didn't take long for everything to finish. The glass trackpad is very responsive and using the built-in gestures you can navigate around your system easily and quickly. The keyboard is large enough for typing, although I still have to get used to the new order of keys compared to my old Windows keyboard. The keys aren't too loud when they're pressed and you can clearly feel whether they're pressed or not. Right now, I'm writing this article on the MacBook Air. Apple promised a battery life of 12 hours and they didn't lie. I used my MacBook Air for about 12.5 hours after having unboxed it and it still had some battery left. My battery is now 8% full but according to the system, I still have 1.2 hours of battery life. The fans are quiet most of the time. Only when I played DiRT 2 and when I setup Dropbox for the first time, they were audible. Also, the MacBook stays cool most of the time, like when I'm just browsing the internet or watching movies. However on harder tasks like playing graphic intensive games, it can get really hot at the top of the keyboard. Regarding speed, the MacBook Air performs very well. The processor scores 6903 points on [Geekbench](http://browser.primatelabs.com/geekbench2/2082284 "Geekbench score") and the SSD can read and write files at up to 800 MB/s which makes everything run fast and smoothly. Simple apps need less than a second to open and apps like Lightroom open in just a few seconds. The new Intel HD 5000 graphics chip that's integrated into the processor can handle most of the games that I tried including Minecraft on high settings and DiRT 2 with default settings. The speakers are loud and good, but they lack some bass that my old Dell XPS 15 had and sometimes, when there's a high frequency sound, they start rattling a bit, which is a little annoying. The screen is great and with it's resolution of 1440x900 pixels, there's enough space for most of the applications. On this screen, using fullscreen apps really makes sense. That way, you can get most out of your screen and using a three-finger swipe you can switch between open apps. [![The screen size and what you can do on it](/uploads/2013/06/Bildschirmfoto-2013-06-22-um-23.37.48.png)](/uploads/2013/06/Bildschirmfoto-2013-06-22-um-23.37.48.png) Summing it all up, my first impressions were great. I didn't have any problems setting the MacBook up and installing applications didn't take long. Using the MacBook Air feels great and I don't have any negative points about it right now. In the next few weeks, I'll extend this article, when I have used the MacBook Air for some more time and have some more experiences. As always, if you have any questions, just leave them in the comments below and I'll try to answer them.
