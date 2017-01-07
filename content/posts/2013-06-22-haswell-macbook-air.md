@@ -258,7 +258,6 @@ After opening the package, you'll see just the MacBook Air packed into a plastic
 Going from left to right, you'll get two Apple stickers, some manuals and warranty documents, the additional adapter, if you ordered one, a power plug and a power cable, and finally the charger. You can choose whether you want to use the longer cable or the smaller plug. I went with the small plug as I don't want to carry this long cable with me. Compared to the old MacBooks, the new charger is smaller and the MagSafe 2 connector is a bit slimmer.
 
 [![The new charger](/uploads/2013/06/MG_0669.jpg)](/uploads/2013/06/MG_0669.jpg)
-
 [![MagSafe 2](/uploads/2013/06/MG_0666.jpg)](/uploads/2013/06/MG_0666.jpg)
 
 Coming to the MacBook Air itself, on the top you'll only see the Apple logo which will lighten up when the screen is on. On the left, there's the MagSafe port, a USB 3.0 port, a headphone jack which also supports iPhone compatible headphones with controls and a microphone, like the [Bose MIE2i](/bose-mie2i-review/ "Bose MIE2i Headphones Review"), and two microphones which will reduce background noise if you want to. On the right, you'll see a Thunderbolt port which is backwards compatible to Mini DisplayPort, another USB 3.0 port and an SD card slot. Inside the MacBook Air, there's a 720p FaceTime webcam, the 13" 1440x900 pixels screen, a full-size keyboard and a glass trackpad and that's it.
