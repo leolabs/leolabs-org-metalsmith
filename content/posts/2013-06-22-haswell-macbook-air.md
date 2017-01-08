@@ -1,6 +1,7 @@
 ---
 title: Testing the 13" Haswell MacBook Air
 date: 2013-06-22 21:41:02 Z
+permalink: blog/technology/idevices/haswell-macbook-air
 ---
 
 ## Introduction
