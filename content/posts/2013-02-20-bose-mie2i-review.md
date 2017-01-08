@@ -3,6 +3,7 @@ title: Bose MIE2i Headphones Review
 date: 2013-02-20 21:17:08 Z
 alias:
 - blog/idevices/bose-mie2i-review
+- blog/technology/idevices/bose-mie2i-review
 ---
 
 [![Bose MIE2i banner](/uploads/2013/02/banner-bose1.png)](/uploads/2013/02/banner-bose1.png)

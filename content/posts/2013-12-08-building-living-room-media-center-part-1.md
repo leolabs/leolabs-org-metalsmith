@@ -12,4 +12,4 @@ Behind the TV, we drilled a hole to lead the cables to the cabinet on the right 
 
 [![_MG_8574](/uploads/2013/12/MG_8574.jpg)](/uploads/2013/12/MG_8574.jpg)
 
-I already put an HDMI cable and a USB extension cord behind the TV to connect it to the Intel NUC. When the NUC arrives, I'll post part two of this article. In the meantime, if you have any questions or suggestions, just let me know in the comments below this article. To continue by reading the second article, click [here](/building-living-room-media-center-part-2/ "Building a living room media center – Part 2: The Intel NUC").
+I already put an HDMI cable and a USB extension cord behind the TV to connect it to the Intel NUC. When the NUC arrives, I'll post part two of this article. In the meantime, if you have any questions or suggestions, just let me know in the comments below this article. To continue by reading the second article, click [here](/blog/building-living-room-media-center-part-2/ "Building a living room media center – Part 2: The Intel NUC").
