@@ -1,6 +1,8 @@
 ---
 title: Color Grading scenes from 200 Calories
 date: 2014-10-06 08:20:46 Z
+alias:
+- blog/videography/color-grading-scenes-200-calories
 ---
 
 [200 Calories](/200-calories-created-during-the-2880-film-festival/ "200 Calories, created during the 2880 Film Festival") was the first short movie in which I tried using Premiere to color grade the footage. I mainly used the Fast Color Corrector and a simple Vignette Overlay to color grade. Here are some of the results.
