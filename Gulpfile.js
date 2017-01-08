@@ -49,7 +49,11 @@ gulp.task('metalsmith', function(cb) {
         .use(markdown())
         .use(permalinks({
             pattern: ":title/",
-            relative: false
+            relative: false,
+            linksets: [{
+                match: { collection: 'articles' },
+                pattern: 'blog/:title'
+            }]
         }))
         .use(excerpts())
         .use(layouts({
