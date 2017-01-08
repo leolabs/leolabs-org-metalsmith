@@ -248,6 +248,8 @@ header {
   padding: 0;
   color: #fff;
   background-color: #2e2e2e;
+  overflow-x: auto;
+  white-space: nowrap;
 
   a, a:visited {
     color: #fff;
