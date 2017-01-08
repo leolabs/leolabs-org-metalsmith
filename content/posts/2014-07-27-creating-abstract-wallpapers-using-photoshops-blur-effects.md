@@ -3,6 +3,8 @@ title: Creating abstract Wallpapers using Photoshop's Blur Effects
 date: 2014/07-27 16:19:53 Z
 image:
   feature: /uploads/2014/07/Brushes.jpg
+alias:
+- blog/photography/creating-abstract-wallpapers-using-photoshops-blur-effects
 ---
 
 Today I experimented with Photoshop's Blur Filters to create some interesting abstract Wallpapers. I used Apple's default Wallpapers as the color source and these images are some of the results.
