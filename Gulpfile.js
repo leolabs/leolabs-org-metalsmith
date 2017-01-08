@@ -19,34 +19,10 @@ var
 
 const destination = "build";
 
-gulp.task('clean', function() {
-    return gulp.src(destination, {read: false})
-        .pipe(clean());
-});
-
-gulp.task('sass', function() {
-    return gulp.src('./theme/scss/*.scss')
-        .pipe(sass({
-            outputStyle: "compressed"
-        }).on('error', sass.logError))
-        .pipe(gulp.dest(destination + '/css'))
-        .pipe(browserSync.stream());
-});
-
-gulp.task('assets', function() {
-    return gulp.src('./assets/**/*')
-        .pipe(gulp.dest(destination + "/assets"))
-        .pipe(browserSync.stream());
-});
-
-// build HTML files using Metalsmith
 gulp.task('metalsmith', function() {
     return gulp.src('content/**').pipe(metalsmith({
-        // Metalsmith's root directory, for example for locating templates, defaults to CWD
         root: __dirname,
-        // Parsing frontmatter, defaults to true
         frontmatter: true,
-        // Metalsmith plugins to use:
         use: [
             collections({
                 articles: {
@@ -87,6 +63,26 @@ gulp.task('metalsmith', function() {
         }
     }))
         .pipe(gulp.dest(destination))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('clean', function() {
+    return gulp.src(destination, {read: false})
+        .pipe(clean());
+});
+
+gulp.task('sass', function() {
+    return gulp.src('./theme/scss/*.scss')
+        .pipe(sass({
+            outputStyle: "compressed"
+        }).on('error', sass.logError))
+        .pipe(gulp.dest(destination + '/css'))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('assets', function() {
+    return gulp.src('./assets/**/*')
+        .pipe(gulp.dest(destination + "/assets"))
         .pipe(browserSync.stream());
 });
 
