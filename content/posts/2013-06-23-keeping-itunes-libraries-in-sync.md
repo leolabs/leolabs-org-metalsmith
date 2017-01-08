@@ -1,7 +1,9 @@
 ---
 title: Keeping iTunes libraries in sync
 date: 2013-06-23 19:05:53 Z
-permalink: blog/technology/idevices/keeping-itunes-libraries-in-sync
+permalink: blog/keeping-itunes-libraries-in-sync
+alias:
+- blog/technology/idevices/keeping-itunes-libraries-in-sync
 ---
 
 [![itunes-sync-banner](/uploads/2013/06/itunes-sync-banner.jpg)](/uploads/2013/06/itunes-sync-banner.jpg)

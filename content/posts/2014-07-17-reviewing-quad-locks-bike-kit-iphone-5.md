@@ -1,7 +1,9 @@
 ---
 title: Reviewing Quad Lock's Bike Kit for the iPhone 5
 date: 2014-07-17 13:49:42 Z
-permalink: blog/technology/idevices/reviewing-quad-locks-bike-kit-iphone-5
+permalink: blog/reviewing-quad-locks-bike-kit-iphone-5
+alias:
+- blog/technology/idevices/reviewing-quad-locks-bike-kit-iphone-5
 ---
 
 Quad Lock is a smartphone mounting system that allows you to mount your devices on a variety of locations including cars, bikes and other places. The Bike Kit consists of a case for the iPhone 5/5S, a mount for bicycles and the so-called Poncho which you can put over your phone when it's raining. About a month ago, I bought a new bike and decided to get an iPhone mount for it. The Bike Kit costs about 60€ and comes in a compact box.

@@ -11,7 +11,8 @@ var
     markdown     = require('metalsmith-markdown'),
     htmlMinifier = require('metalsmith-html-minifier'),
     sitemap      = require('metalsmith-sitemap'),
-    excerpts     = require('metalsmith-better-excerpts');
+    excerpts     = require('metalsmith-better-excerpts'),
+    alias        = require('metalsmith-alias');
 
 const destination = "build";
 
@@ -62,6 +63,7 @@ gulp.task('metalsmith', function(cb) {
             directory: "theme/layouts",
             partials: "theme/partials"
         }))
+        .use(alias())
         .use(sitemap({
             hostname: "https://leolabs.org"
         }))
