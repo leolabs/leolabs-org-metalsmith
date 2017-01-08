@@ -1,7 +1,7 @@
 ---
 title: Testing Hardwrk's Massive Dock for the iPhone
 date: 2014-05-24 21:21:06 Z
-permalink: blog/testing-hardwrks-massive-dock-iphone
+slug: testing-hardwrks-massive-dock-iphone
 alias:
 - blog/technology/idevices/testing-hardwrks-massive-dock-iphone
 ---

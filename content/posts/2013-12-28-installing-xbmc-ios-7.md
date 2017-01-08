@@ -1,7 +1,7 @@
 ---
 title: Installing XBMC on iOS 7
 date: 2013-12-28 15:56:58 Z
-permalink: blog/installing-xbmc-ios-7
+slug: installing-xbmc-ios-7
 alias:
 - blog/technology/idevices/installing-xbmc-ios-7
 ---

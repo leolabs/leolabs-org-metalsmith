@@ -1,7 +1,7 @@
 ---
 title: Reviewing Quad Lock's Bike Kit for the iPhone 5
 date: 2014-07-17 13:49:42 Z
-permalink: blog/reviewing-quad-locks-bike-kit-iphone-5
+slug: reviewing-quad-locks-bike-kit-iphone-5
 alias:
 - blog/technology/idevices/reviewing-quad-locks-bike-kit-iphone-5
 ---

@@ -1,7 +1,7 @@
 ---
 title: Reviewing the PlayStation 4 (Gamer Edition)
 date: 2014-01-12 17:05:44 Z
-permalink: blog/reviewing-playstation-4-gamer-edition
+slug: reviewing-playstation-4-gamer-edition
 ---
 
 ## Introduction

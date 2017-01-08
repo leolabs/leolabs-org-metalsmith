@@ -1,7 +1,7 @@
 ---
 title: Making JetBrains' IntelliJ portable
 date: 2013-02-02 17:01:31 Z
-permalink: blog/making-intellij-portable
+slug: making-intellij-portable
 ---
 
 In our informatics class, we are working a lot with Java and as I was searching for a nice IDE that is easy to use and contains an integrated project manager, I found IntelliJ IDEA. I really like it and wanted to use it in school aswell. The only problem is that we can't install applications on school computers as we can't change files on their hard drives permanently. So I had the idea to create a portable version of IntelliJ that could be run off a usb drive and therefore doesn't require writing access on the computer's hard drive.

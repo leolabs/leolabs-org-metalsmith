@@ -10,7 +10,8 @@ var metalsmith   = require('metalsmith'),
     browserSync  = require('metalsmith-browser-sync'),
     sass         = require('metalsmith-sass'),
     hightlightJS = require('metalsmith-metallic'),
-    branch       = require('metalsmith-branch');
+    branch       = require('metalsmith-branch'),
+    slug         = require('metalsmith-slug');
 
 const source = "content";
 const destination = "build";
@@ -34,12 +35,13 @@ var ms = metalsmith(".")
     }))
     .use(hightlightJS())
     .use(markdown())
+    .use(slug())
     .use(permalinks({
-        pattern: ":title/",
+        pattern: ":slug/",
         relative: false,
         linksets: [{
             match: { collection: 'articles' },
-            pattern: 'blog/:title'
+            pattern: 'blog/:slug'
         }]
     }))
     .use(excerpts())

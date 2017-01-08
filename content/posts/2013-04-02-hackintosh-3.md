@@ -1,7 +1,7 @@
 ---
 title: Building an Ivy Bridge Hackintosh - The Installation
 date: 2013-04-02 19:24:02 Z
-permalink: blog/hackintosh-3
+slug: hackintosh-3
 ---
 
 [![The Banner](/uploads/2013/04/hackintosh-3-banner.jpg)](/uploads/2013/04/hackintosh-3-banner.jpg) Now that all the components were installed in the case, I turned my Hackintosh on and had to see that the BIOS was always freezing right at the beginning when the GTX 660 Ti was inserted. I already wanted to give the card back and buy another model but then I found out that this is a common problem which can be solved by updating the BIOS to a newer version. After downloading and installing the [firmware version F9](http://www.gigabyte.com/products/product-page.aspx?pid=4326#bios "The download page for the BIOS updates") the boot went just fine.

@@ -1,7 +1,7 @@
 ---
 title: Rethinking music management in iTunes with Tags
 date: 2013-03-20 21:13:00 Z
-permalink: blog/rethinking-music-management-in-itunes-with-tags
+slug: rethinking-music-management-in-itunes-with-tags
 alias:
 - blog/technology/idevices/rethinking-music-management-in-itunes-with-tags
 ---

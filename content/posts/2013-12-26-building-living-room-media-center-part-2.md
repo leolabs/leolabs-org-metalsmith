@@ -1,7 +1,7 @@
 ---
 title: 'Building a living room media center - Part 2: The Intel NUC'
 date: 2013-12-26 15:59:23 Z
-permalink: blog/building-living-room-media-center-part-2
+slug: building-living-room-media-center-part-2
 ---
 
 [![banner-part-2](/uploads/2013/12/banner-part-21.jpg)](/uploads/2013/12/banner-part-21.jpg)

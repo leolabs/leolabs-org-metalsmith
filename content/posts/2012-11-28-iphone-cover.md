@@ -1,7 +1,7 @@
 ---
 title: Album Covers werden auf dem iPhone nicht angezeigt - Lösung
 date: '2012-11-28 20:26:19'
-permalink: blog/iphone-cover
+slug: iphone-cover
 alias:
 - blog/technology/idevices/iphone-cover
 ---
