@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: leolabs.org - Smart Software Development
 header: LEOLABS.ORG
 permalink: false
 layout: index.html
