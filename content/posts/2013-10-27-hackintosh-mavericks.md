@@ -1,6 +1,7 @@
 ---
 title: Updating the Hackintosh to Mavericks
 date: 2013-10-27 12:22:06 Z
+permalink: blog/updating-the-hackintosh-to-mavericks
 ---
 
 This tuesday, Apple released its new version of Mac OS X called Mavericks. Just a few hours later, a new version of UniBeast and MultiBeast were released on tonymacx86's website that allowed the installation of Mavericks on any hackintosh. The cool thing with Mavericks is that it can be downloaded for free, so you don't have to pay for the operating system if you're building a hackintosh. I already have built a [hackintosh](http://leolabs.org/blog/hackintosh-part-1/ "Building an Ivy Bridge Hackintosh – The parts"), so I wanted to upgrade my OS from Mountain Lion to Mavericks without deleting my existing user and application data. Doing that was simple and took just about an hour.
