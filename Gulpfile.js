@@ -32,7 +32,7 @@ gulp.task('assets', function() {
 });
 
 // build HTML files using Metalsmith
-gulp.task('metalsmith', function() {
+gulp.task('metalsmith', function(cb) {
     metalsmith(".")
         .clean(false)
         .source("content")
@@ -58,6 +58,7 @@ gulp.task('metalsmith', function() {
         .use(htmlMinifier())
         .build(function(err) {
             if (err) throw err;
+            cb();
         });
 });
 
