@@ -9,7 +9,9 @@ var
     layouts      = require('metalsmith-layouts'),
     permalinks   = require('metalsmith-permalinks'),
     markdown     = require('metalsmith-markdown'),
-    htmlMinifier = require('metalsmith-html-minifier');
+    htmlMinifier = require('metalsmith-html-minifier'),
+    sitemap      = require('metalsmith-sitemap'),
+    excerpts     = require('metalsmith-better-excerpts');
 
 const destination = "build";
 
@@ -49,11 +51,15 @@ gulp.task('metalsmith', function(cb) {
             pattern: ":title/",
             relative: false
         }))
+        .use(excerpts())
         .use(layouts({
             engine: "handlebars",
             default: "default.html",
             directory: "theme/layouts",
             partials: "theme/partials"
+        }))
+        .use(sitemap({
+            hostname: "https://leolabs.org"
         }))
         .use(htmlMinifier())
         .build(function(err) {
