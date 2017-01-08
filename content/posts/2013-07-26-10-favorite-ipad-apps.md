@@ -5,7 +5,9 @@ date: 2013-07-26 21:40:50 Z
 
 [![banner](/uploads/2013/07/banner.jpg)](/uploads/2013/07/banner.jpg)
 
-Dominik von [idomix.de](http://www.idomix.de/blogstoeckchen-10-ios-apps-die-auf-dem-ipad-nicht-fehlen-duerfen) hat das Blogstöckchen in meine Richtung geworfen und gut getroffen ;) Ich benutze mein iPad (1\. Generation) jetzt schon seit über 2 Jahren zu Hause, in der Schule und auf der Arbeit und über die Zeit haben sich auch bei mir einige Apps angesammelt, die ich auf dem iPad nicht mehr missen möchte. Hier ist also meine Liste der 10 iOS Apps, die auf dem iPad nicht fehlen dürfen:
+Dominik von [idomix.de](http://www.idomix.de/blogstoeckchen-10-ios-apps-die-auf-dem-ipad-nicht-fehlen-duerfen) hat das Blogstöckchen in meine Richtung geworfen und gut getroffen ;)
+
+Ich benutze mein iPad (1. Generation) jetzt schon seit über 2 Jahren zu Hause, in der Schule und auf der Arbeit und über die Zeit haben sich auch bei mir einige Apps angesammelt, die ich auf dem iPad nicht mehr missen möchte. Hier ist also meine Liste der 10 iOS Apps, die auf dem iPad nicht fehlen dürfen:
 
 ## 1\. Documents von Readdle
 
