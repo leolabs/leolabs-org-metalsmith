@@ -4,17 +4,6 @@
   text-rendering: optimizelegibility !important;
 }
 
-a, a:visited {
-  color: #999;
-}
-
-a {
-  -webkit-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  transition: color 0.2s;
-  text-decoration: underline;
-}
-
 html {
   margin: 0;
   padding: 0;
@@ -104,8 +93,12 @@ img {
 p {
   margin: 0 0 1.5em;
 }
+a {
+  color: #999;
+  text-decoration: underline;
+}
 a:focus, a:hover {
-  color: #000;
+  color: #666;
 }
 blockquote {
   margin: 1.5em;
@@ -172,9 +165,10 @@ pre code {
   background: #202020;
   padding: 10pt 15pt;
   border-radius: 3px;
+  display: block;
 }
 hr {
-  border: 0px;
+  border: 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #fff;
   margin-top: 4em;
