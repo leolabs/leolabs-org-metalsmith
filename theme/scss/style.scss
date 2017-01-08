@@ -3,6 +3,13 @@
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility !important;
 }
+a, a:visited {
+  color: #999;
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: underline;
+}
 html {
   margin: 0;
   padding: 0;
@@ -86,13 +93,6 @@ p {
 }
 a:focus, a:hover {
   color: #000;
-}
-a, a:visited {
-  color: #999;
-  -webkit-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  transition: color 0.2s;
-  text-decoration: underline;
 }
 blockquote {
   margin: 1.5em;
