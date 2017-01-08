@@ -11,7 +11,8 @@ var metalsmith   = require('metalsmith'),
     sass         = require('metalsmith-sass'),
     hightlightJS = require('metalsmith-metallic'),
     branch       = require('metalsmith-branch'),
-    slug         = require('metalsmith-slug');
+    slug         = require('metalsmith-slug'),
+    hyphenate    = require('metalsmith-hyphenate');
 
 const source = "content";
 const destination = "build";
@@ -51,6 +52,9 @@ var ms = metalsmith(".")
         directory: "theme/layouts",
         partials: "theme/partials"
     }))
+    .use(hyphenate({
+        "elements": ["h1", "p", "blockquote", "li"]
+    }))
     .use(alias())
     .use(sitemap({
         hostname: "https://leolabs.org"
@@ -60,7 +64,7 @@ var ms = metalsmith(".")
 if(serve) {
     ms.use(browserSync({
         server : "build",
-        files  : ["content/**/*.md", "theme/**/*"]
+        files  : ["content/**/*", "theme/**/*"]
     }));
 }
 

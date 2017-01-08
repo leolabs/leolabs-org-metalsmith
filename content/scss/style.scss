@@ -89,6 +89,7 @@ h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
 }
 img {
   max-width: 100%;
+  border-radius: 3px;
 }
 p {
   margin: 0 0 1.5em;
@@ -148,7 +149,7 @@ figcaption {
   margin-bottom: 2em;
 }
 figure img {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 code {
   font-family: Menlo, monospace;
@@ -160,10 +161,8 @@ p> code {
 }
 pre code {
   text-align: left;
-  overflow-x: scroll;
-  color: #d3bd7e;
-  background: #202020;
-  padding: 10pt 15pt;
+  overflow-x: auto;
+  padding: 10pt 15pt !important;
   border-radius: 3px;
   display: block;
 }
