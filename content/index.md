@@ -1,7 +1,7 @@
 ---
 title: leolabs.org - Smart Software Development
 header: LEOLABS.ORG
-permalink: false
+permalink: .
 layout: index.html
 ---
 
