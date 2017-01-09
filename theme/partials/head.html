@@ -10,12 +10,27 @@
 <body>
 
 <header>
+    {{#if image.feature}}
+        <div class="header-overlay"></div>
+        <div class="header-image" style="background-image: url('{{image.feature}}')"></div>
+    {{/if}}
+
+    <nav>
+        <div class="content">
+            <a href="/" class="active">Blog</a>
+            <a href="https://twitter.com/leolabs_org" target="_blank">Twitter</a>
+            <a href="https://medium.com/@leolabs" target="_blank">Medium</a>
+            <a href="https://github.com/leolabs" target="_blank">GitHub</a>
+            <a href="https://500px.com/leolabs" target="_blank">500px</a>
+            <a href="https://open.spotify.com/user/leolabs" target="_blank">Spotify</a>
+        </div>
+    </nav>
+
     <div class="content">
-        <a href="/" class="active">Blog</a>
-        <a href="https://twitter.com/leolabs_org" target="_blank">Twitter</a>
-        <a href="https://medium.com/@leolabs" target="_blank">Medium</a>
-        <a href="https://github.com/leolabs" target="_blank">GitHub</a>
-        <a href="https://500px.com/leolabs" target="_blank">500px</a>
-        <a href="https://open.spotify.com/user/leolabs" target="_blank">Spotify</a>
+        {{#if header}}
+        <h1>{{header}}</h1>
+        {{else}}
+        <h1>{{title}}</h1>
+        {{/if}}
     </div>
 </header>
