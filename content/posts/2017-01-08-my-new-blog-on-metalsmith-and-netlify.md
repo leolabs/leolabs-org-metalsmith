@@ -1,6 +1,8 @@
 ---
 title: My new blog on Metalsmith and Netlify
 date: 2017-01-08 11:00:00
+header:
+  color: '#2196F3'
 ---
 
 It's been a long time since I've updated my blog. I've been busy with university and other projects so that I didn't write a single article last year. Eventually, my WordPress blog got hacked and my hoster shut it down because they don't allow hosting of infected websites.

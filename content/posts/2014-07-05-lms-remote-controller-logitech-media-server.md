@@ -2,7 +2,7 @@
 title: LMS Remote – Control your Logitech Media Server
 date: 2014-07-05 12:42:56 Z
 slug: lms-remote-controller-logitech-media-server
-image:
+header:
   feature: /assets/2014/07/lms-header.jpg
 ---
 

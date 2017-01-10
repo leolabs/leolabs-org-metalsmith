@@ -1,8 +1,8 @@
 ---
 title: leolabs.org - Smart Software Development
-header: LEOLABS.ORG
+head: LEOLABS.ORG
 permalink: .
-layout: index.html
+layout: index.hbs
 ---
 
 Hey there! My name is Leo Bernard. I'm a Student, Musician, Developer and Nerd. I love Photography, Movies, Computers, Music and Cats.

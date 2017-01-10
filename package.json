@@ -6,9 +6,12 @@
     "metalsmith": "^2.3.0"
   },
   "devDependencies": {
+    "browser-sync": "latest",
     "gulp": "latest",
     "gulp-clean": "latest",
+    "gulp-imagemin": "^3.1.1",
     "gulp-metalsmith": "^1.1.0",
+    "gulp-responsive": "^2.7.0",
     "gulp-sass": "latest",
     "gulp-serve": "latest",
     "handlebars": "^4.0.6",
@@ -28,7 +31,7 @@
     "metalsmith-sitemap": "^1.2.0",
     "metalsmith-slug": "^0.2.0",
     "run-sequence": "latest",
-    "browser-sync": "latest"
+    "glob": "latest"
   },
   "author": "",
   "license": "ISC"

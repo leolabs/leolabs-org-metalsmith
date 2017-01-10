@@ -1,25 +1,27 @@
 var
-    gulp         = require('gulp'),
-    browserSync  = require('browser-sync').create(),
-    sass         = require('gulp-sass'),
-    clean        = require('gulp-clean'),
-    metalsmith   = require('gulp-metalsmith'),
-    runSequence  = require('run-sequence'),
-    collections  = require('metalsmith-collections'),
-    layouts      = require('metalsmith-layouts'),
-    permalinks   = require('metalsmith-permalinks'),
-    markdown     = require('metalsmith-markdown'),
+    gulp = require('gulp'),
+    browserSync = require('browser-sync').create(),
+    responsive = require('gulp-responsive');
+    sass = require('gulp-sass'),
+    clean = require('gulp-clean'),
+    metalsmith = require('gulp-metalsmith'),
+    imagemin = require('gulp-imagemin'),
+    runSequence = require('run-sequence'),
+    collections = require('metalsmith-collections'),
+    layouts = require('metalsmith-layouts'),
+    permalinks = require('metalsmith-permalinks'),
+    markdown = require('metalsmith-markdown'),
     htmlMinifier = require('metalsmith-html-minifier'),
-    sitemap      = require('metalsmith-sitemap'),
-    excerpts     = require('metalsmith-better-excerpts'),
-    alias        = require('metalsmith-alias'),
-    slug         = require('metalsmith-slug'),
-    hyphenate    = require('metalsmith-hyphenate'),
-    highlightJS  = require('metalsmith-metallic');
+    sitemap = require('metalsmith-sitemap'),
+    excerpts = require('metalsmith-better-excerpts'),
+    alias = require('metalsmith-alias'),
+    slug = require('metalsmith-slug'),
+    hyphenate = require('metalsmith-hyphenate'),
+    highlightJS = require('metalsmith-metallic');
 
 const destination = "build";
 
-gulp.task('metalsmith', function() {
+gulp.task('metalsmith', function () {
     return gulp.src('content/**').pipe(metalsmith({
         root: __dirname,
         frontmatter: true,
@@ -38,14 +40,14 @@ gulp.task('metalsmith', function() {
                 pattern: ":slug/",
                 relative: false,
                 linksets: [{
-                    match: { collection: 'articles' },
+                    match: {collection: 'articles'},
                     pattern: 'blog/:slug'
                 }]
             }),
             excerpts(),
             layouts({
                 engine: "handlebars",
-                default: "default.html",
+                default: "default.hbs",
                 directory: "theme/layouts",
                 partials: "theme/partials"
             }),
@@ -66,12 +68,12 @@ gulp.task('metalsmith', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('clean', function() {
+gulp.task('clean', function () {
     return gulp.src(destination, {read: false})
         .pipe(clean());
 });
 
-gulp.task('sass', function() {
+gulp.task('sass', function () {
     return gulp.src('./theme/scss/*.scss')
         .pipe(sass({
             outputStyle: "compressed"
@@ -80,19 +82,39 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('assets', function() {
+gulp.task('assets', function () {
     return gulp.src('./assets/**/*')
+        /*.pipe(responsive({
+            '**//*.{jpg,jpeg,png}': [{
+                width: 700,
+                rename: {
+                    suffix: '-large'
+                }
+            }, {
+                width: 700 * 2,
+                rename: {
+                    suffix: '-large@2x'
+                }
+            }]
+        }, {
+            quality: 80,
+            withoutEnlargement: true,
+            errorOnEnlargement: false,
+            errorOnUnusedImage: false,
+            progressive: true
+        }))
+        .pipe(imagemin())*/
         .pipe(gulp.dest(destination + "/assets"))
         .pipe(browserSync.stream());
 });
 
-gulp.task('build', ['clean'], function(cb) {
+gulp.task('build', ['clean'], function (cb) {
     runSequence('clean', ['sass', 'metalsmith', 'assets'], cb);
 });
 
 gulp.task('default', ['build']);
 
-gulp.task('serve', ['default'], function() {
+gulp.task('serve', ['default'], function () {
     browserSync.init({
         server: {
             baseDir: "./build"
@@ -100,6 +122,6 @@ gulp.task('serve', ['default'], function() {
     });
 
     gulp.watch("theme/**/*.scss", ['sass']);
-    gulp.watch("content/**/*.md", ['metalsmith']);
+    gulp.watch(["content/**/*.md", "theme/**/*.html"], ['metalsmith']);
     gulp.watch("assets/**/*", ['assets']);
 });

@@ -10,9 +10,13 @@
 <body>
 
 <header>
-    {{#if image.feature}}
+    {{#if header.color}}
+    <div class="header-background" style="background-color: {{header.color}}"></div>
+    {{/if}}
+
+    {{#if header.feature}}
         <div class="header-overlay"></div>
-        <div class="header-image" style="background-image: url('{{image.feature}}')"></div>
+        <div class="header-background" style="background-image: url('{{header.feature}}')"></div>
     {{/if}}
 
     <nav>
@@ -27,8 +31,8 @@
     </nav>
 
     <div class="content">
-        {{#if header}}
-        <h1>{{header}}</h1>
+        {{#if head}}
+        <h1>{{head}}</h1>
         {{else}}
         <h1>{{title}}</h1>
         {{/if}}

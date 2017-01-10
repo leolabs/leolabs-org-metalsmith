@@ -1,7 +1,7 @@
 ---
 title: Color Grading scenes from 200 Calories
 date: 2014-10-06 08:20:46 Z
-image:
+header:
   feature: /assets/2014/10/Master.Still004.jpeg
 alias:
 - blog/videography/color-grading-scenes-200-calories
