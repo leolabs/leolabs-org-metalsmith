@@ -1,7 +1,7 @@
 var
     gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
-    responsive = require('gulp-responsive');
+    responsive = require('gulp-responsive'),
     sass = require('gulp-sass'),
     clean = require('gulp-clean'),
     metalsmith = require('gulp-metalsmith'),
@@ -84,17 +84,9 @@ gulp.task('sass', function () {
 
 gulp.task('assets', function () {
     return gulp.src('./assets/**/*')
-        /*.pipe(responsive({
+        .pipe(responsive({
             '**//*.{jpg,jpeg,png}': [{
-                width: 700,
-                rename: {
-                    suffix: '-large'
-                }
-            }, {
-                width: 700 * 2,
-                rename: {
-                    suffix: '-large@2x'
-                }
+                width: 700 * 2
             }]
         }, {
             quality: 80,
@@ -103,7 +95,7 @@ gulp.task('assets', function () {
             errorOnUnusedImage: false,
             progressive: true
         }))
-        .pipe(imagemin())*/
+        .pipe(imagemin())
         .pipe(gulp.dest(destination + "/assets"))
         .pipe(browserSync.stream());
 });
