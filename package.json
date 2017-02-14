@@ -2,9 +2,13 @@
   "name": "leolabs-org-metalsmith",
   "version": "1.0.0",
   "description": "",
+  "scripts": {
+    "build": "gulp"
+  },
   "dependencies": {
     "metalsmith": "^2.3.0"
   },
+  
   "devDependencies": {
     "browser-sync": "latest",
     "gulp": "latest",
