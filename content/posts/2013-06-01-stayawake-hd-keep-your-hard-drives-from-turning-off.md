@@ -7,7 +7,7 @@ alias:
 
 StayAwake HD is a little helper app for Mac OS X and soon for Windows and Linux that keeps your hard drives from turning off.
 
-» [Download StayAwake HD version 1.0.0](/assets/2013/06/StayAwake-HD.zip) or [Get the source code](https://github.com/leolabs/StayAwakeHD "Get the StayAwake HD source code")
+» [Download StayAwake HD version 1.0.0](https://github.com/leolabs/StayAwakeHD/raw/master/packages/osx/bundle/StayAwake%20HD.zip) or [Get the source code](https://github.com/leolabs/StayAwakeHD "Get the StayAwake HD source code")
 
 This is a one-day project that I created this app using TideSDK which is still in development but already stable enough for this kind of apps. StayAwake HD is completely open-source so you can modify it as much as you want as long as you don't sell this code and keep my branding in it. This is my first Mac App project, so if you have suggestions, ideas, or anything else, just leave them in the comments below this article.
 
