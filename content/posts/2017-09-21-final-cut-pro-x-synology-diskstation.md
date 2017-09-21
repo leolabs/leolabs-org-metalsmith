@@ -15,34 +15,34 @@ Adding the suggested line to Synology's `/etc/samba/smb.conf` didn't work and ca
 
 SSH into the Synology DiskStation (you have to activate SSH using the web interface first if you haven't done so yet) and gain root access using:
 
-```
-sudo -i
+```bash
+$ sudo -i
 ```
 
 Edit the Samba configuration file:
 
-```
-vi /etc/samba/smb.conf
+```bash
+$ vi /etc/samba/smb.conf
 ```
 
 Insert the following line at the end (quick vi guide: press `i`, insert the text, then press `ESC`, enter `:wq` and press `ENTER`):
 
-```
+```ini
 vfs objects=catia,fruit,streams_xattr
 ```
 
 Copy the config file to `etc.defaults`:
 
-```
-cp /etc/samba/smb.conf /etc.defaults/samba/smb.conf
+```bash
+$ cp /etc/samba/smb.conf /etc.defaults/samba/smb.conf
 ```
 
 Restart the Samba server:
 
-```
-/usr/syno/etc.defaults/rc.sysv/S80samba.sh restart
+```bash
+$ /usr/syno/etc.defaults/rc.sysv/S80samba.sh restart
 ```
 
-And voilà! You can now use your DiskStation to store and edit Final Cut projects :tada:
+And voilà! You can now use your DiskStation to store and edit Final Cut projects 🎉
 
 Pro Tip: To prevent Finder from connecting to the DiskStation using AFP, disable the protocol using the web interface. It is deprecated by Apple anyway and the new versions of SMB are superior.
