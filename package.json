@@ -6,9 +6,9 @@
     "build": "gulp"
   },
   "dependencies": {
+    "gulp-cache": "^0.4.6",
     "metalsmith": "^2.3.0"
   },
-  
   "devDependencies": {
     "browser-sync": "latest",
     "gulp": "latest",
