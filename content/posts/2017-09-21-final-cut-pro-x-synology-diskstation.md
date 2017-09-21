@@ -15,13 +15,13 @@ Adding the suggested line to Synology's `/etc/samba/smb.conf` didn't work and ca
 
 SSH into the Synology DiskStation (you have to activate SSH using the web interface first if you haven't done so yet) and gain root access using:
 
-```shell
+```
 sudo -i
 ```
 
 Edit the Samba configuration file:
 
-```shell
+```
 vi /etc/samba/smb.conf
 ```
 
@@ -33,13 +33,13 @@ vfs objects=catia,fruit,streams_xattr
 
 Copy the config file to `etc.defaults`:
 
-```shell
+```
 cp /etc/samba/smb.conf /etc.defaults/samba/smb.conf
 ```
 
 Restart the Samba server:
 
-```shell
+```
 /usr/syno/etc.defaults/rc.sysv/S80samba.sh restart
 ```
 
