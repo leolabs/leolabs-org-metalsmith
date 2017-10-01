@@ -2,7 +2,7 @@
 title: Creating abstract Wallpapers using Photoshop's Blur Effects
 date: 2014/07-27 16:19:53 Z
 header:
-  feature: /assets/2014/07/Brushes.jpg
+  https://leolabs.imgix.net/2014/07/Brushes.jpg?max-w=1920
 alias:
 - blog/photography/creating-abstract-wallpapers-using-photoshops-blur-effects
 ---

@@ -2,7 +2,7 @@
 title: Color Grading scenes from 200 Calories
 date: 2014-10-06 08:20:46 Z
 header:
-  feature: /assets/2014/10/Master.Still004.jpeg
+  https://leolabs.imgix.net/2014/10/Master.Still004.jpeg?max-w=1920
 alias:
 - blog/videography/color-grading-scenes-200-calories
 ---
