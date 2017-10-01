@@ -3,7 +3,7 @@ title: 'My new project: ExceptionBase.NET'
 date: 2013-05-08 16:13:45 Z
 ---
 
-[![blog-banner](https://leolabs.imgix.net/assets/2013/05/blog-banner.jpg?max-w=700)](/assets/2013/05/blog-banner.jpg) In the last few months I've been working on a new project called ExceptionBase.NET which allows .NET developers to track exceptions that occur in their published applications. These exceptions will be submitted to a database where they can be managed, grouped, and fixed. For those interested in such a solution, I created an introduction video:
+[![blog-banner](https://leolabs.imgix.net/2013/05/blog-banner.jpg?max-w=700)](/assets/2013/05/blog-banner.jpg) In the last few months I've been working on a new project called ExceptionBase.NET which allows .NET developers to track exceptions that occur in their published applications. These exceptions will be submitted to a database where they can be managed, grouped, and fixed. For those interested in such a solution, I created an introduction video:
 
 http://youtu.be/JuqwXKNiaqA
 
