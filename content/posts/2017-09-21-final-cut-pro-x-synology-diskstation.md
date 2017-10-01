@@ -7,7 +7,7 @@ header:
 
 A while ago I started using Final Cut Pro X for my projects and two days ago I bought a Synology DS1817+ to store my project files. The setup was easy but when I tried to open one of my Final Cut projects from the network share using Samba, I got an error message:
 
-![Unsupported volume type. Choose a local, SAN or supported SMB location.](https://i.imgur.com/bKuLykl.png)
+![Unsupported volume type. Choose a local, SAN or supported SMB location.](https://leolabs.imgix.nethttps://i.imgur.com/bKuLykl.png?max-w=700)
 
 I decided to go with SMB since this is the only feasible option here. After some digging, a [support page for Final Cut](https://support.apple.com/en-us/HT207128) shed some light on the potential problem. Apparently, Synology's configuration of the Samba server was missing some modules that are needed for Final Cut to accept the share.
 

@@ -1,12 +1,9 @@
 var
     gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
-    responsive = require('gulp-responsive'),
     sass = require('gulp-sass'),
     clean = require('gulp-clean'),
     metalsmith = require('gulp-metalsmith'),
-    imagemin = require('gulp-imagemin'),
-    cache = require('gulp-cache'),
     runSequence = require('run-sequence'),
     collections = require('metalsmith-collections'),
     layouts = require('metalsmith-layouts'),
@@ -85,18 +82,6 @@ gulp.task('sass', function () {
 
 gulp.task('assets', function () {
     return gulp.src('./assets/**/*')
-        .pipe(cache(responsive({
-            '**//*.{jpg,jpeg,png}': [{
-                width: 700 * 2
-            }]
-        }, {
-            quality: 80,
-            withoutEnlargement: true,
-            errorOnEnlargement: false,
-            errorOnUnusedImage: false,
-            progressive: true
-        })))
-        .pipe(cache(imagemin()))
         .pipe(gulp.dest(destination + "/assets"))
         .pipe(browserSync.stream());
 });

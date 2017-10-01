@@ -9,24 +9,24 @@ alias:
 
 Today I experimented with Photoshop's Blur Filters to create some interesting abstract Wallpapers. I used Apple's default Wallpapers as the color source and these images are some of the results.
 
-![Bahamas Aerial](/assets/2014/07/Bahamas-Aerial.jpg)
+![Bahamas Aerial](https://leolabs.imgix.net/assets/2014/07/Bahamas-Aerial.jpg?max-w=700)
 
-![Blue Pond](/assets/2014/07/Blue-Pond.jpg)
+![Blue Pond](https://leolabs.imgix.net/assets/2014/07/Blue-Pond.jpg?max-w=700)
 
-![Brushes](/assets/2014/07/Brushes.jpg)
+![Brushes](https://leolabs.imgix.net/assets/2014/07/Brushes.jpg?max-w=700)
 
-![Foggy Forest](/assets/2014/07/Foggy-Forest.jpg)
+![Foggy Forest](https://leolabs.imgix.net/assets/2014/07/Foggy-Forest.jpg?max-w=700)
 
-![Grass Blades](/assets/2014/07/Grass-Blades.jpg)
+![Grass Blades](https://leolabs.imgix.net/assets/2014/07/Grass-Blades.jpg?max-w=700)
 
-![Lake](/assets/2014/07/Lake.jpg)
+![Lake](https://leolabs.imgix.net/assets/2014/07/Lake.jpg?max-w=700)
 
-![Milky Way](/assets/2014/07/Milky-Way.jpg)
+![Milky Way](https://leolabs.imgix.net/assets/2014/07/Milky-Way.jpg?max-w=700)
 
-![Mt. Fuji](/assets/2014/07/Mt.-Fuji.jpg)
+![Mt. Fuji](https://leolabs.imgix.net/assets/2014/07/Mt.-Fuji.jpg?max-w=700)
 
-![Snow](/assets/2014/07/Snow.jpg)
+![Snow](https://leolabs.imgix.net/assets/2014/07/Snow.jpg?max-w=700)
 
-![Wave](/assets/2014/07/Wave.jpg)
+![Wave](https://leolabs.imgix.net/assets/2014/07/Wave.jpg?max-w=700)
 
-![Zebras](/assets/2014/07/Zebras.jpg)
+![Zebras](https://leolabs.imgix.net/assets/2014/07/Zebras.jpg?max-w=700)
